@@ -1,39 +1,64 @@
-<!-- 
-This README describes the package. If you publish this package to pub.dev,
-this README's contents appear on the landing page for your package.
+# color_simp
 
-For information about how to write a good package README, see the guide for
-[writing package pages](https://dart.dev/tools/pub/writing-package-pages). 
-
-For general information about developing packages, see the Dart guide for
-[creating packages](https://dart.dev/guides/libraries/create-packages)
-and the Flutter guide for
-[developing packages and plugins](https://flutter.dev/to/develop-packages). 
--->
-
-TODO: Put a short description of the package here that helps potential users
-know whether this package might be useful for them.
+A simple Dart package that adds colorful console logging using ANSI escape codes.
 
 ## Features
 
-TODO: List what your package can do. Maybe include images, gifs, or videos.
+- Easily apply colors to console output.
+- Supports **red, green, yellow, blue, magenta, cyan**.
+- Provides a `log()` method to print colored text directly.
 
-## Getting started
+## Getting Started
 
-TODO: List prerequisites and provide or point to information on how to
-start using the package.
+To use `color_simp`, add it as a dependency in your `pubspec.yaml`:
+
+```yaml
+dependencies:
+  color_simp: latest_version
+```
+
+Then, run:
+
+```sh
+dart pub get
+```
 
 ## Usage
 
-TODO: Include short and useful examples for package users. Add longer examples
-to `/example` folder. 
-
 ```dart
-const like = 'sample';
+import 'package:color_simp/color_simp.dart';
+
+void main() {
+  "Its very easy on green".green.log();
+  "Its very easy on red also".red.log();
+  "Same on yellow".yellow.log();
+}
 ```
 
-## Additional information
+### Output Example:
 
-TODO: Tell users more about the package: where to find more information, how to 
-contribute to the package, how to file issues, what response they can expect 
-from the package authors, and more.
+![Console Output Example](https://via.placeholder.com/500x200?text=Colorful+Console+Text)
+
+## Running Tests
+
+To ensure everything works as expected, run:
+
+```sh
+dart test
+```
+
+## Contributing
+
+Contributions are welcome! If you find a bug or have an idea for an improvement:
+
+1. Fork the repository.
+2. Create a feature branch.
+3. Submit a pull request.
+
+## Issues
+
+If you encounter any issues, feel free to open an issue on [GitHub](https://github.com/yourusername/color_simp/issues).
+
+## License
+
+This project is licensed under the MIT License. See the `LICENSE` file for details.
