@@ -16,5 +16,5 @@ extension ColorfulString on String {
   String get magenta => '${LogColors.magenta}$this${LogColors.reset}';
   String get cyan => '${LogColors.cyan}$this${LogColors.reset}';
 
-  void log() => print(this); // Prints the colored string
+  void log() => print(this);
 }
