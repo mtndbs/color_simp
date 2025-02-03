@@ -38,7 +38,7 @@ void main() {
 
 ### Output Example:
 
-![Console Output Example](doc/example.png)
+![Console Output Example](doc/screen_example.png)
 
 ## Running Tests
 
