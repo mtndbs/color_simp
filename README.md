@@ -7,6 +7,7 @@ A simple Dart package that adds colorful console logging using ANSI escape codes
 - Easily apply colors to console output.
 - Supports **red, green, yellow, blue, magenta, cyan**.
 - Provides a `log()` method to print colored text directly.
+- Includes prevent prints in production mode.
 
 ## Getting Started
 
@@ -37,7 +38,7 @@ void main() {
 
 ### Output Example:
 
-![Console Output Example](https://via.placeholder.com/500x200?text=Colorful+Console+Text)
+![Console Output Example](docs/example.png)
 
 ## Running Tests
 
