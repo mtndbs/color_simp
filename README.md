@@ -7,7 +7,7 @@ A simple Dart package that adds colorful console logging using ANSI escape codes
 - Easily apply colors to console output.
 - Supports **red, green, yellow, blue, magenta, cyan**.
 - Provides a `log()` method to print colored text directly.
-- Includes prevent prints in production mode.
+- Includes prevent prints on production mode.
 
 ## Getting Started
 
@@ -58,7 +58,7 @@ Contributions are welcome! If you find a bug or have an idea for an improvement:
 
 ## Issues
 
-If you encounter any issues, feel free to open an issue on [GitHub](https://github.com/yourusername/color_simp/issues).
+If you encounter any issues, feel free to open an issue on [GitHub](https://github.com/mtndbs/color_simp/issues).
 
 ## License
 
