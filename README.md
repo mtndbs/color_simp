@@ -33,6 +33,7 @@ void main() {
   "Its very easy on green".green.log();
   "Its very easy on red also".red.log();
   "Same on yellow".yellow.log();
+  userProvider.user!.firstName?.yellow.log();
 }
 ```
 
